@@ -19,7 +19,7 @@ variable "HPEGL_SPACE" {
 }
 
 data "hpegl_caas_site" "blr" {
-  name     = ""
+  name     = "HPE"
   space_id = var.HPEGL_SPACE
 }
 
